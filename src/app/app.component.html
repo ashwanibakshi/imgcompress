@@ -1,0 +1,10 @@
+<div>
+  <button (click)="compressFile()">Upload and compress Image</button>
+  <img *ngIf="imgResultBeforeCompress" [src]="imgResultBeforeCompress" alt=""><br>
+  <p>Image size before compressing : {{imgbefore}}</p>
+ <br><br>
+
+
+  <img *ngIf="imgResultAfterCompress" [src]="imgResultAfterCompress" alt=""><br>
+  <p>Image size after compressing : {{imageafter}} </p>
+</div>
